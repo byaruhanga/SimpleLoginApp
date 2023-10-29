@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">SimpleLoginApp</string>
+    <string name="app_name">Legacy</string>
+    <string name="client_info_activity">ClientInfoActivity</string>
 </resources>

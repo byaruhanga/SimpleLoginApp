@@ -6,23 +6,31 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_launch"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SimpleLoginApp"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.simpleloginapp.MainActivity"
             android:exported="true"
-            android:label="@string/app_name"
-            android:theme="@style/AppTheme">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            android:theme="@style/AppTheme"
+            tools:ignore="ExtraText">
+            android:exported="true"
 
-                <category android:name="android.intent.category.LAUNCHER" />
+            <intent-filter>
+
+                    <action android:name="android.intent.action.MAIN" />
+                    <category android:name="android.intent.category.LAUNCHER" />
+
             </intent-filter>
+
         </activity>
+
+        <activity
+            android:name=".ClientInfoActivity"
+            android:label="@string/clientinfoactivity" />
+         android:theme="@style/AppTheme"
     </application>
 
 </manifest>

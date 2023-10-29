@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="client_characteristics">
+        <item>Characteristic 1</item>
+        <item>Characteristic 2</item>
+        <item>Characteristic 3</item>
+        <!-- Add more characteristics as needed -->
+    </string-array>
+</resources>
